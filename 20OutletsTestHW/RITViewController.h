@@ -10,4 +10,9 @@
 
 @interface RITViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *chessboard;
+@property (weak, nonatomic) IBOutlet UIView *whiteBox;
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *cells;
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *checkers;
+
 @end
