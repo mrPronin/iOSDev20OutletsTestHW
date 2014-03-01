@@ -25,7 +25,6 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (NSUInteger) supportedInterfaceOrientations {
@@ -37,7 +36,6 @@
     [self shuffleCheckers];
     
     [self changeColor];
-    
 }
 
 #pragma mark - Helper methods
